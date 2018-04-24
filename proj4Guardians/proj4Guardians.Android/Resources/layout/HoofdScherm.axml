@@ -8,11 +8,20 @@
     android:layout_weight="100">
     <TextView
         android:minWidth="25px"
-        android:minHeight="25px"
+        android:minHeight="20px"
         android:layout_width="match_parent"
         android:layout_height="0"
         android:layout_weight="10"
         android:id="@+id/TxtKoptekst"
-        android:hint="Dit is tekst"
+        android:hint="Dit is tekst 1"
         android:textSize="100sp" />
+    <TextView
+        android:minWidth="25px"
+        android:minHeight="20px"
+        android:layout_width="match_parent"
+        android:layout_height="0"
+        android:layout_weight="10"
+        android:id="@+id/TxtTekst2"
+        android:hint="Dit is tekst 2"
+        android:textSize="50sp" />
 </LinearLayout>
