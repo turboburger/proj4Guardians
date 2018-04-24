@@ -18,7 +18,7 @@ namespace proj4Guardians.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
+            //hierbij een wijziging aan een bestand
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
