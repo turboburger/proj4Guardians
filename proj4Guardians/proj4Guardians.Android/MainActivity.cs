@@ -21,6 +21,7 @@ namespace proj4Guardians.Droid
             //hierbij een wijziging aan een bestand
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+            //SetContentView(Resource.Layout.HoofdScherm);
         }
     }
 }
